@@ -1,0 +1,15 @@
+需要广播的信息：
+int *hiddenDim;
+double *InputWeight;
+double *Bias
+string *ActivationFunction
+double C
+int layers; //隐层数目
+int NumberClasses
+
+先转换数组，然后再广播出去
+
+调用run_ELM函数得到各个进程的HH和beta。
+各个进程发送数据到0号进程，0号进程负责合并。
+
+分别统计通信时间和计算时间以及总时间。

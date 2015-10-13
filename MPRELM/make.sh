@@ -1,0 +1,1 @@
+mpicxx src/main.cpp src/POSELM.cpp -O2 -I./src -I/home/frash/wyq/DependLib/usr/include -L/home/frash/wyq/DependLib/usr/lib -DARMA_DONT_USE_WRAPPER -L/usr/local/lib/lib/lib -lopenblas -L/home/frash/wyq/Linux_ARMA/lapack-3.5.0/liblapack.a -o bin/main -larmadillo

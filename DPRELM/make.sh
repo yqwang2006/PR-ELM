@@ -1,0 +1,1 @@
+mpicxx src/main.cpp src/POSELM.cpp -O2 -I./src -I /home/wyq/Linux_ARMA/armadillo-4.600.4/include -DARMA_DONT_USE_WRAPPER -larmadillo -L /usr/local/openblas/lib -lopenblas -L /home/wyq/Linux_ARMA/lapack-3.5.0/liblapack.a  -o bin/main
